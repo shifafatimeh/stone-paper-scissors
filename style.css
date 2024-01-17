@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #8c4843;
+}
+h1 {
+  background-color: #f7f0f5;
+  color: #6c464f;
+  text-align: center;
+  margin-top: 1rem;
+  height: 8rem;
+  line-height: 8rem;
+  border-radius: 1rem;
+  box-shadow: #e6e1c5;
+  box-shadow: 0 0 1rem black;
+  font-size: 60px;
+}
+.heading {
+  background-color: #f7f0f5;
+  color: #6c464f;
+  text-align: center;
+  margin-top: 1rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 1rem;
+  box-shadow: #e6e1c5;
+  box-shadow: 0 0 1rem black;
+  font-size: 30px;
+}
+.choice {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border-color: sienna;
+  background-color: #e5c2c0;
+  text-align: center;
+  display: flex;
+
+  box-shadow: 0 0 2rem black;
+}
+.choice:hover {
+  opacity: 50%;
+  cursor: pointer;
+  background-color: #e5eafa;
+}
+img {
+  height: 170px;
+  object-fit: cover;
+}
+.img1 {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.img2 {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.img3 {
+  margin-top: 4rem;
+  margin-left: 6rem;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+  margin-top: 3rem;
+}
+.scoreboard {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  gap: 17rem;
+  margin-top: 2rem;
+  font-style: inherit;
+  color: #ecf8f8;
+  box-shadow: 0 0 2rem bisque;
+  text-align: center;
+}
+
+#comp,
+#user {
+  font-size: 80px;
+}
+
+.msgcnt {
+  font-size: 25px;
+  height: 70px;
+  width: 400px;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: #efc7c2;
+  box-shadow: 0 0 2rem black;
+  border-radius: 1rem;
+  color: #8c4843;
+  margin-left: 30rem;
+}
+.hide {
+  display: none;
+}
+.hid {
+  display: none;
+}
+.new {
+  background-color: #f7f0f5;
+  color: #6c464f;
+  text-align: center;
+  margin-top: 1rem;
+  height: 6rem;
+  border-radius: 1rem;
+  box-shadow: #e6e1c5;
+  box-shadow: 0 0 1rem black;
+  font-size: 40px;
+  margin-top: 15rem;
+  object-fit: cover;
+  width: fit-content;
+  margin-left: 15rem;
+  padding: 0.5rem;
+  line-height: 6rem;
+}
+.butn {
+  font-size: 30px;
+  height: 70px;
+  width: 400px;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: #efc7c2;
+  box-shadow: 0.5rem 0.5rem 0.5rem beige;
+  border-radius: 1rem;
+  color: #8c4843;
+  margin-left: 30rem;
+  margin-top: 5rem;
+}
+.butn:hover {
+  opacity: 50%;
+  cursor: pointer;
+  background-color: #e5eafa;
+}
+.style_won {
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 4rem;
+}
+.styleDraw {
+  color: white;
+  background-color: #6c464f;
+  text-align: center;
+  line-height: 4rem;
+}
+.style_loose {
+  color: white;
+  background-color: red;
+  text-align: center;
+  line-height: 4rem;
+}
+.paper,
+.rock {
+  display: none;
+}
